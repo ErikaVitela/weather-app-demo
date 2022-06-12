@@ -7,12 +7,12 @@ const forecast = require('./utils/forecast');
 const app = express();
 const port = process.env.PORT || 3000;
 
-//express config
+//Define paths for express config
 const publicDirectoryPath = path.join(__dirname, '../public');
 const viewDirectoryPath = path.join(__dirname, '../templates/views');
 const partialDirectoryPath = path.join(__dirname, '../templates/partials');
 
-//Handlebars engine and views location
+//Setup handlebars engine and views location
 app.set('view engine', 'hbs');
 app.set('views', viewDirectoryPath);
 hbs.registerPartials(partialDirectoryPath);
