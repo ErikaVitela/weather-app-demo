@@ -21,7 +21,7 @@ hbs.registerPartials(partialDirectoryPath);
 app.use(express.static(publicDirectoryPath));
 
 app.get('', (req, res) => {
-    res.render('index', { title: 'Weather', name: 'Erika Vitela' });
+    res.render('index', { title: 'My Weather App', name: 'Erika Vitela' });
 });
 
 app.get('/about', (req, res) => {

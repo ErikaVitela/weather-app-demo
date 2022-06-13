@@ -1,5 +1,5 @@
 body {
-    color: #333333;
+    color: #800080;
     font-family: arial;
     max-width: 650px;
     margin: 0 auto;
@@ -48,8 +48,8 @@ input {
 
 button {
     cursor: pointer;
-    border: 1px solid #888888;
-    background: #888888;
+    border: 1px solid #800080;
+    background: #800080;
     color: white;
     padding: 8px;
 }
